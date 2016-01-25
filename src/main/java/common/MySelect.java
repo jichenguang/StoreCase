@@ -1,6 +1,7 @@
 
 package common;
 
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,7 +12,8 @@ public class MySelect {
 
 	
 
-    public void testSelect(String value1,String value2,WebDriver Driver) {
+    @Test
+	public void testSelect(String value1,String value2,WebDriver Driver) {
     	
     	
 

@@ -1,5 +1,6 @@
 package Action;
 
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -12,6 +13,7 @@ public class ToolRichText {
 	
 	
 
+@Test
 public static void testRichText(WebDriver driver)
   {
 

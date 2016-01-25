@@ -20,7 +20,8 @@ public class NewPro {
 		System.out.println("进入新建商品页面");
 		
 		MySelect myselect =new MySelect();
-		PageSelect.testSelect("周边","头盔", Driver);
+//		PageSelect.testSelect("周边","头盔", Driver);
+		PageSelect.testSelect("自行车","城市自行车", Driver);
 		
 
 		PageEditPro.editPro("防风口罩","行走江湖，安全第一",Driver);

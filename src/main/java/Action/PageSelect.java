@@ -1,5 +1,6 @@
 package Action;
 
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,7 +10,8 @@ public class PageSelect {
 	
 	
 
-    public static String testSelect(String value1,String value2,WebDriver Driver) {
+    @Test
+	public static String testSelect(String value1,String value2,WebDriver Driver) {
     	
     	
 		/*@
@@ -26,7 +28,7 @@ public class PageSelect {
         WebElement element2 = Driver.findElement(By.xpath(".//*[@id='selChildCategory']"));
         Select select2 = new Select(element2);
 //        select2.deselectByVisibleText(value2);
-        select2.selectByIndex(6);/*这个也可以,VisibleText效果好很多*/
+        select2.selectByIndex(0);/*这个也可以,VisibleText效果好很多*/
         String text2 = select2.getFirstSelectedOption().getText();
         System.out.println(text2);
         

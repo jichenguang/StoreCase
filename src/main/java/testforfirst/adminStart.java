@@ -1,7 +1,5 @@
 package testforfirst;
 
-import java.io.IOException;
-
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -10,19 +8,19 @@ import Action.Login_adminq;
 import Action.NewPro;
 import common.GetCookie;
 
+public class adminStart {
+	
+	
 
-/*
- * @后台自动化测试入口
- */
-public class adminq_StartScript {
-	
-	
 	public static WebDriver Driver = new FirefoxDriver();
 	static String PraUsername = "administrator";
 	static String PraPassword = "111111";
 	static Cookie MyCookie = null;
 
-	public static void main(String[] args) throws IOException, InterruptedException {
+//	public static void main(String[] args) throws IOException, InterruptedException {
+	
+	public static void Start() throws InterruptedException
+	{
 		
 		
 		// TODO Auto-generated method stub
@@ -56,8 +54,8 @@ public class adminq_StartScript {
 			/*
 			 * 关闭所有浏览器
 			 */
-/*	        Thread.sleep(3000);
-	        Driver.quit();  */
+	        Thread.sleep(3000);
+	        Driver.quit();  
 			
 			
 			
@@ -70,3 +68,7 @@ public class adminq_StartScript {
 	}
 
 }
+
+
+
+
