@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
-  <test name="Test(failed)" parallel="none">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="Action.ToolRichText">
+      <class name="TestCase.CaseAdimin">
         <methods>
-          <include name="testRichText"/>
+          <include name="CaseAdmin_Start"/>
         </methods>
-      </class> <!-- Action.ToolRichText -->
-      <class name="common.MySelect">
-        <methods>
-          <include name="testSelect"/>
-        </methods>
-      </class> <!-- common.MySelect -->
+      </class> <!-- TestCase.CaseAdimin -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

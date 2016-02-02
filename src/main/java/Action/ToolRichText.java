@@ -9,7 +9,10 @@ import org.openqa.selenium.WebElement;
 public class ToolRichText {
 	
 	
-
+/**
+ * 编辑商品描述
+ * @param driver 
+ */
 	
 	
 
@@ -23,9 +26,15 @@ public static void testRichText(WebDriver driver)
       JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
       jsExecutor.executeScript(
     		  "arguments[0].innerHTML ="
-    		  + " '<h1>Selenium Test </h1>I love Selenium <br> this article Post By Selenium WebDriver<br>"
-    		  + "<h2>Create By Young</h2>'", editor);
-       
+    		  + " '<h1>商品描述</h1>"
+    		  + "创新、防弹性体合成涂料，防止损坏自行车表面；多款潮流颜色可选；防切割设计。<br>"
+    		  + "创新、防弹性体合成涂料，防止损坏自行车表面；多款潮流颜色可选；防切割设计。<br>"
+    		  + "创新、防弹性体合成涂料，防止损坏自行车表面；多款潮流颜色可选；防切割设计。<br>"
+    		  + "创新、防弹性体合成涂料，防止损坏自行车表面；多款潮流颜色可选；防切割设计。<br>"
+    		  + "创新、防弹性体合成涂料，防止损坏自行车表面；多款潮流颜色可选；防切割设计。<br>"
+    		  + "创新、防弹性体合成涂料，防止损坏自行车表面；多款潮流颜色可选；防切割设计。<br>"
+    		  +"'",editor);
+      System.out.println(jsExecutor.toString());
 //    driver.switchTo().defaultContent();
       
       
