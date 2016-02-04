@@ -1,48 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="183" started-at="2016-02-02T06:25:12Z" finished-at="2016-02-02T06:25:12Z">
+  <suite name="Default suite" duration-ms="54716" started-at="2016-02-04T03:22:52Z" finished-at="2016-02-04T03:23:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="183" started-at="2016-02-02T06:25:12Z" finished-at="2016-02-02T06:25:12Z">
+    <test name="Default test" duration-ms="54716" started-at="2016-02-04T03:22:52Z" finished-at="2016-02-04T03:23:46Z">
       <class name="TestCase.CaseAdimin">
-        <test-method status="SKIP" signature="CaseAdmin_Start(int)[pri:0, instance:TestCase.CaseAdimin@156fb054]" name="CaseAdmin_Start" duration-ms="0" started-at="2016-02-02T14:25:12Z" finished-at="2016-02-02T14:25:12Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'MyProNum' is required by @Test on method CaseAdmin_Start but has not been marked @Optional or defined
-in /private/var/folders/xf/kdg8kbhj4fn2_0fpfvbl9v300000gp/T/testng-eclipse-1337688325/testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'MyProNum' is required by @Test on method CaseAdmin_Start but has not been marked @Optional or defined
-in /private/var/folders/xf/kdg8kbhj4fn2_0fpfvbl9v300000gp/T/testng-eclipse-1337688325/testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="CaseAdmin_Start()[pri:0, instance:TestCase.CaseAdimin@1d3cdb70]" name="CaseAdmin_Start" duration-ms="54644" started-at="2016-02-04T11:22:52Z" finished-at="2016-02-04T11:23:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CaseAdmin_Start -->

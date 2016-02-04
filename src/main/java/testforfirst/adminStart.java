@@ -39,7 +39,6 @@ public class adminStart {
 	public static void Start() throws InterruptedException
 	{
 		
-		try {
 			
 			/**
 			 * 登录
@@ -83,14 +82,6 @@ public class adminStart {
 			 */
 //	        Thread.sleep(3000);
 //	        Driver.quit();  
-			
-			
-			
-			
-		} catch (IllegalStateException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 
 	}
 
