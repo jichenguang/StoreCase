@@ -1,6 +1,7 @@
 
 package common;
 
+<<<<<<< HEAD
 import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,6 +15,19 @@ public class MySelect {
 
     @Test
 	public void testSelect(String value1,String value2,WebDriver Driver) {
+=======
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class MySelect {
+
+	
+
+    public void testSelect(String value1,String value2,WebDriver Driver) {
+>>>>>>> branch 'master' of https://github.com/jichenguang/adminqRSS.git
     	
     	
 
