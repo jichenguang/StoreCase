@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="54716" started-at="2016-02-04T03:22:52Z" finished-at="2016-02-04T03:23:46Z">
+  <suite name="Suite" duration-ms="53615" started-at="2016-02-19T09:45:58Z" finished-at="2016-02-19T09:46:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="54716" started-at="2016-02-04T03:22:52Z" finished-at="2016-02-04T03:23:46Z">
+    <test name="Test" duration-ms="53615" started-at="2016-02-19T09:45:58Z" finished-at="2016-02-19T09:46:51Z">
       <class name="TestCase.CaseAdimin">
-        <test-method status="PASS" signature="CaseAdmin_Start()[pri:0, instance:TestCase.CaseAdimin@1d3cdb70]" name="CaseAdmin_Start" duration-ms="54644" started-at="2016-02-04T11:22:52Z" finished-at="2016-02-04T11:23:46Z">
+        <test-method status="PASS" signature="CaseAdmin_Start()[pri:0, instance:TestCase.CaseAdimin@7e0babb1]" name="CaseAdmin_Start" duration-ms="53591" started-at="2016-02-19T17:45:58Z" finished-at="2016-02-19T17:46:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CaseAdmin_Start -->
       </class> <!-- TestCase.CaseAdimin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

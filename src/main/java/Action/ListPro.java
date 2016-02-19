@@ -88,7 +88,7 @@ public class ListPro {
 				 */
 				 WebElement UpShelve =  myDriver.findElement(By.xpath(".//*[@id='btnShelve']"));
 				 UpShelve.click();
-				 
+				 Thread.sleep(1000);
 				 /*
 				  * 操作弹出框，确认。
 				  */

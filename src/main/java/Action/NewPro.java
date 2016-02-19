@@ -14,7 +14,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.http.HttpClient;
 import org.openqa.selenium.support.ui.Select;
-import org.seleniumhq.jetty9.util.log.Log;
+
 
 import common.MySelect;
 

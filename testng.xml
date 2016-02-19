@@ -3,10 +3,7 @@
 <suite name="Suite" parallel="none">
   <test name="Test">
     <classes>
-      <class name="Action.ToolProGrame"/>
-      <class name="common.MySelect"/>
-      <class name="Action.PageSelect"/>
-      <class name="Action.ToolRichText"/>
+      <class name="TestCase.CaseAdimin"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

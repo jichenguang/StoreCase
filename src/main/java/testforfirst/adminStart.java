@@ -11,6 +11,7 @@ import Action.ActionClassListPro;
 import Action.ListPro;
 import Action.Login_adminq;
 import Action.NewPro;
+import WebChecker.doWebCkecker;
 import common.GetCookie;
 
 public class adminStart {
@@ -24,18 +25,6 @@ public class adminStart {
 //	public static void main(String[] args) throws IOException, InterruptedException {
 	
 	
-//	@DataProvider(name="Driver")
-//	public static WebDriver GetDriver(){
-//		 WebDriver Driver = new FirefoxDriver();
-//		 return Driver;
-//	}
-//
-//	
-//	@Test(dataProvider="Driver")	
-//	@Parameters("testname")
-//	@Parameters("testpassword")
-//	@Test
-//	@Parameters("MyProNum")
 	public static void Start() throws InterruptedException
 	{
 		
@@ -61,7 +50,7 @@ public class adminStart {
 //			NewPro.NewMybaby(MyCookie, Driver);
 			
 //		int i=1;	
-//			for(i=4;i<=8;i++){		
+//			for(i=1;i<=2;i++){		
 //				NewPro.NewProduct(MyCookie, Driver,i);
 //					Thread.sleep(1000);
 //			}
@@ -73,8 +62,15 @@ public class adminStart {
 				int MyProNum =7243;
 				ActionClassListPro actionList = new ActionClassListPro(Driver, MyCookie,  MyProNum);
 				actionList.ActPro();
-					
-					
+				
+				
+				/*
+				 * 调用前台展示页面
+				 */
+					doWebCkecker webCheck = new doWebCkecker(Driver,MyProNum);
+					webCheck.doCheck();
+						
+
 			
 			
 			/**

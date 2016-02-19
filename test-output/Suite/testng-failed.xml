@@ -3,16 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
   <test name="Test(failed)" parallel="none">
     <classes>
-      <class name="Action.ToolRichText">
+      <class name="TestCase.CaseAdimin">
         <methods>
-          <include name="testRichText"/>
+          <include name="CaseAdmin_Start"/>
         </methods>
-      </class> <!-- Action.ToolRichText -->
-      <class name="common.MySelect">
-        <methods>
-          <include name="testSelect"/>
-        </methods>
-      </class> <!-- common.MySelect -->
+      </class> <!-- TestCase.CaseAdimin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
