@@ -49,11 +49,11 @@ public class adminStart {
 			
 //			NewPro.NewMybaby(MyCookie, Driver);
 			
-//		int i=1;	
-//			for(i=1;i<=2;i++){		
-//				NewPro.NewProduct(MyCookie, Driver,i);
-//					Thread.sleep(1000);
-//			}
+		int i=1;	
+			for(i=1;i<=2;i++){		
+				NewPro.NewProduct(MyCookie, Driver,i);
+					Thread.sleep(1000);
+			}
 
 			/**
 			  * 商品列表操作

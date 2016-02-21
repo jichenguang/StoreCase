@@ -19,14 +19,16 @@ public class Login_adminq {
 						
 
 	
-	static String adminq_url = "http://adminq.700paper.cn/index";
+//	static String adminq_url = "http://adminq.700paper.cn/index";
+	static String admin_url = "http://admin.700store.com/index";
 	
 			
            public static  boolean clickForLogin(String PraUsernamesername, String PraPassword, WebDriver Driver) throws InterruptedException {
 	
         	   				Driver.manage().deleteAllCookies();
 					        Driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-					        Driver.get(adminq_url);
+//					        Driver.get(adminq_url);
+					        Driver.get(admin_url);
 					        
 					//应对一个配置问题
 					        Driver.findElement(By.xpath(".//*[@id='user-info']")).click();
